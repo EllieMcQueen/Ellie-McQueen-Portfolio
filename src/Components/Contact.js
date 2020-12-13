@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
-import Form from 'react-bootstrap/Form';
-import Button from 'react-bootstrap/Button';
-import axios from 'axios';
+// import Form from 'react-bootstrap/Form';
+// import Button from 'react-bootstrap/Button';
+// import axios from 'axios';
 import Alert from 'react-bootstrap/Alert';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
@@ -9,37 +9,37 @@ import { faGithubSquare } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelopeSquare } from '@fortawesome/free-solid-svg-icons';
 
 const Contact = () => {
-    const [emailBody, setEmail] = useState({
-        name: '',
-        email: '',
-        subject: '',
-        message: ''
-    })
+    // const [emailBody, setEmail] = useState({
+    //     name: '',
+    //     email: '',
+    //     subject: '',
+    //     message: ''
+    // })
     const [showReject, setShowReject] = useState(false);
     const [emailSent, setEmailSent] = useState(false);
 
-    const handleInput = (event) => {
-        setEmail({...emailBody, [event.target.name]: event.target.value})
-    }  
+    // const handleInput = (event) => {
+    //     setEmail({...emailBody, [event.target.name]: event.target.value})
+    // }  
 
     const linkedInSquare = <FontAwesomeIcon icon={faLinkedin} size='3x' />
     const githubSquare = <FontAwesomeIcon icon={faGithubSquare} size='3x' />
     const emailSquare = <FontAwesomeIcon icon={faEnvelopeSquare} size='3x' />
     
-    const sendEmail = async(e) => {
-        e.preventDefault();
-        const {name, email, subject, message} = emailBody;
-        await axios
-            .post('/api/email', {name, email, subject, message})
-            .then(() => {
-                setEmailSent(true)
-                setEmail({name: '', email: '', subject: '', message: ''})
-            })
-            .catch(err => {
-                setShowReject(true)
-                console.log(err)
-            })     
-    }
+    // const sendEmail = async(e) => {
+    //     e.preventDefault();
+    //     const {name, email, subject, message} = emailBody;
+    //     await axios
+    //         .post('/api/email', {name, email, subject, message})
+    //         .then(() => {
+    //             setEmailSent(true)
+    //             setEmail({name: '', email: '', subject: '', message: ''})
+    //         })
+    //         .catch(err => {
+    //             setShowReject(true)
+    //             console.log(err)
+    //         })     
+    // }
     return(
         <section id='contact' className='contact-section'>
             {showReject?

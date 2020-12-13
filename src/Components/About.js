@@ -1,14 +1,14 @@
 import React from "react";
 // import SplitText from "./SplitText.js";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { faGithubSquare } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelopeSquare } from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+// import { faGithubSquare } from "@fortawesome/free-brands-svg-icons";
+// import { faEnvelopeSquare } from "@fortawesome/free-solid-svg-icons";
 
 const About = () => {
-  const linkedInSquare = <FontAwesomeIcon icon={faLinkedin} size="3x" />;
-  const githubSquare = <FontAwesomeIcon icon={faGithubSquare} size="3x" />;
-  const emailSquare = <FontAwesomeIcon icon={faEnvelopeSquare} size="3x" />;
+  // const linkedInSquare = <FontAwesomeIcon icon={faLinkedin} size="3x" />;
+  // const githubSquare = <FontAwesomeIcon icon={faGithubSquare} size="3x" />;
+  // const emailSquare = <FontAwesomeIcon icon={faEnvelopeSquare} size="3x" />;
 
   return (
     <section id="about" className="about-section">

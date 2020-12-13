@@ -1,0 +1,187 @@
+.projects-section{
+    background-color: $projects-color;
+    background-image: linear-gradient(0.25turn,teal,#061922,#061922,#061922, #061922,#061922, teal);
+    padding: 50px 10px;
+    color: $text-color;
+
+    .projects-title{
+        color: $off-yellow;
+        font-weight: 200;
+        font-size: 2.5em;
+        padding-bottom: 50px;
+        letter-spacing: .111111em;
+    }
+    .scango{
+        padding:10px;
+        border-radius: 12px 12px 12px 12px;
+        margin-bottom: 70px;
+        -webkit-box-shadow: 0px 0px 11px -3px rgba(255,255,255,1);
+        -moz-box-shadow: 0px 0px 11px -3px rgba(255,255,255,1);
+        box-shadow: 0px 0px 11px -3px rgba(255,255,255,1);
+        .project-links{
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+            font-size: 20px;
+        }
+        .project-links a:hover{
+            color:$off-yellow;
+        }
+        .scanGoCarousel{
+            width: 100%;
+            margin: 0 auto;
+            padding-bottom: 50px;
+            .w-101{
+                height: 400px;
+            }
+        }
+    }
+    .scango h2{
+        letter-spacing: .111111em;
+        margin-bottom: 30px;
+    }
+    .scango p{
+        width: 96%;
+        margin:0 auto;
+        padding-bottom: 15px;
+        font-size: 14px;
+        text-align: left;
+    }
+    .trackerapp{
+        padding:10px;
+        margin-bottom: 70px;
+        border-radius: 12px 12px 12px 12px;
+        -webkit-box-shadow: 0px 0px 11px -3px rgba(255,255,255,1);
+        -moz-box-shadow: 0px 0px 11px -3px rgba(255,255,255,1);
+        box-shadow: 0px 0px 11px -3px rgba(255,255,255,1);
+    
+
+        .project-links{
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+            font-size: 20px;
+        }
+        .project-links a:hover{
+            color:$off-yellow;
+        }
+        .trackerappCarousel{
+            width: 80%;
+            margin: 0 auto;
+            padding-bottom: 50px;
+            .w-1000{
+                width: 100% !important;
+            }
+        }
+    }
+    .trackerapp h2{
+        letter-spacing: .111111em;
+        margin-bottom: 30px;
+    }
+    .trackerapp p{
+        width: 95%;
+        margin: 0 auto;
+        padding-bottom: 15px;
+        font-size: 14px;
+        text-align: left;
+    }
+    .portfolio{
+        padding:30px;
+        border-radius: 12px 12px 12px 12px;
+        -webkit-box-shadow: 0px 0px 11px -3px rgba(255,255,255,1);
+        -moz-box-shadow: 0px 0px 11px -3px rgba(255,255,255,1);
+        box-shadow: 0px 0px 11px -3px rgba(255,255,255,1);
+        .portfolio p a:hover{
+            color: $off-yellow;
+        }
+    }
+}
+strong{
+    color: teal;
+}
+
+.carousel-control-prev-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23bfbfbf' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+.carousel-control-prev-icon:hover{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23696969' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+.carousel-control-next-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23bfbfbf' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+.carousel-control-next-icon:hover{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23696969' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+
+
+@media (min-width: $breakpoint-tablet){
+    .projects-section{
+        padding: 50px 10vw;
+        .projects-title{
+            font-size: 3em;
+        }
+        .scango{
+            padding:30px;
+            .scanGoCarousel{
+                width: 80%;
+            }
+        }
+        .scango p{
+            width: 80%;
+            font-size: 18px;
+        }
+        .trackerapp{
+            padding:30px;
+            
+        }
+        .trackerapp p{
+            width: 80%;    
+            font-size: 18px;
+        }
+    }
+}
+@media (min-width: $breakpoint-desktop){
+    .projects-section{
+        padding: 50px 18vw;
+        .projects-title{
+            font-size: 3em;
+            padding-bottom: 50px;
+        }
+        .scango{
+            margin-bottom: 40px;
+            
+            .scanGoCarousel{
+
+                .w-101{
+                    height: 500px;
+                }
+            }
+        }
+        .scango h2{
+            font-size: 36px;
+        }
+        .scango p{
+            width: 80%;
+            font-size: 18px;
+        }
+        .trackerapp{
+            margin-bottom: 40px;
+          
+            .trackerappCarousel{
+                width: 80%;
+
+            }
+        }
+        .trackerapp h2{
+            font-size: 36px;
+        }
+        .trackerapp p{
+            width: 80%;
+            font-size: 18px;
+        }
+        .portfolio{
+            padding:30px;
+        }
+    }
+}

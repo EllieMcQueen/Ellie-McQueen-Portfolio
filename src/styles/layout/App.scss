@@ -1,0 +1,15 @@
+@import "~bootstrap/scss/bootstrap";
+
+.App {
+    text-align: center;
+}
+a:hover{
+  text-decoration: none;
+  color: inherit; 
+}
+*{
+  outline:none !important;
+}
+::-webkit-scrollbar {
+    display: none;
+}

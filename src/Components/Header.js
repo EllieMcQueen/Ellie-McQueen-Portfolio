@@ -37,16 +37,16 @@ const Header = () => {
     return(
         <header id='home' className='header-section'>
             <div className='header-inner'>
-                <h1 className='site-title'><a href='https://elliemcqueen.app/'>ELLIE MCQUEEN</a></h1>
+                <h1 className='site-title'>ELLIE MCQUEEN</h1>
 
                 <nav className='main-nav'>
-                    <div className='index'><a href='#' id='nav-home'>HOME</a></div>
+                    {/* <div className='index'><a href='#' id='nav-home'>HOME</a></div> */}
                     <div className='index'><a href='#skills'>SKILLS</a></div>
                     <div className='index'><a href='#projects'>PROJECTS</a></div>
                     <div className='index'><a href='#contact'>CONTACT</a></div>
                 </nav>
                 <nav id='navbar' className='floating-nav'>
-                    <div className='index'><a className='home' href='#'>HOME</a></div>
+                    {/* <div className='index'><a className='home' href='#'>HOME</a></div> */}
                     <div className='index'><a className='skills' href='#skills'>SKILLS</a></div>
                     <div className='index'><a className='projects' href='#projects'>PROJECTS</a></div>
                     <div className='index'><a className='contact' href='#contact'>CONTACT</a></div>

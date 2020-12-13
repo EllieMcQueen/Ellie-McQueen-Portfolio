@@ -37,7 +37,7 @@ const Header = () => {
     return(
         <header id='home' className='header-section'>
             <div className='header-inner'>
-                <h1 className='site-title'><a href='https://elliemcqueen.app'>ELLIE MCQUEEN</a></h1>
+                <h1 className='site-title'><a href='https://elliemcqueen.app/'>ELLIE MCQUEEN</a></h1>
 
                 <nav className='main-nav'>
                     <div className='index'><a href='#' id='nav-home'>HOME</a></div>

@@ -5,13 +5,13 @@ const Header = () => {
 
     window.onscroll = function() {
         let currentScrollPos = window.pageYOffset;
-        let homeLink = document.getElementsByClassName("home")[0]
+        // let homeLink = document.getElementsByClassName("home")[0]
         let skillsLink = document.getElementsByClassName("skills")[0]
         let projectsLink = document.getElementsByClassName("projects")[0]
         let contactLink = document.getElementsByClassName("contact")[0]
         if (currentScrollPos > 640 && currentScrollPos < 1350) {
             document.getElementById("navbar").style.top = "0";
-            homeLink.classList.add('yellow')
+            // homeLink.classList.add('yellow')
             skillsLink.classList.add('white')
             projectsLink.classList.remove('white')
             contactLink.classList.remove('white')

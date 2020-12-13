@@ -85,7 +85,7 @@ const Projects = () => {
           calculates into their goal. Ability to add pictures in progress. Information on what protein, carbs, and fats they should use. recipes' on different foods they can use to make meals based on their macros. Enter in remaining calories from protein, carbs, and fats for suggestions on what to eat If they need a certain amount to reach their goal at the end of the day. 
         </p>
         <div className="project-links">
-          <a href="www.bodybuildingtracker.app">DEMO</a>
+          <a href="https://www.bodybuildingtracker.app">DEMO</a>
           <a href="https://github.com/EllieMcQueen/personal-project">SOURCE</a>
         </div>{" "}
         to view their progress from each entry.

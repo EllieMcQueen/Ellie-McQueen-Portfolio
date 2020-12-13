@@ -57,7 +57,7 @@ const Contact = () => {
             <h2 className='contact-title'>CONTACT</h2>
             <p>I'd love to hear from you!</p>
 
-            <Form onSubmit={sendEmail} className='email-form'>
+            {/* <Form onSubmit={sendEmail} className='email-form'>
                 <Form.Group controlId="formBasicName">
                     <Form.Control value={emailBody.name} type="text" placeholder="Name" name='name' onChange={(e) =>  handleInput(e)} required />
                 </Form.Group>
@@ -77,7 +77,7 @@ const Contact = () => {
                 <Button variant="primary" type="submit">
                     Send
                 </Button>
-            </Form>
+            </Form> */}
             <div className='contact-icon-flex'>
             <div className="icon">
             <a href="https://www.linkedin.com/in/elliemcqueen/">

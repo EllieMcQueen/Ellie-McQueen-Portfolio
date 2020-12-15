@@ -17,6 +17,14 @@
     align-content: center;
     overflow: hidden;
 
+    .about_img{
+        background-image: 'Ellie.jpg';
+        position: relative;
+        height: 400px;
+        width: 400px;
+        border: 1px solid rgb(200, 200, 200);
+    }
+
     .snow{
         position: absolute;
         top: 0;

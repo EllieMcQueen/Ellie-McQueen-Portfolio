@@ -1,4 +1,5 @@
 import React from "react";
+import Ellie from '../assets/site/Ellie.jpg'
 // import SplitText from "./SplitText.js";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
@@ -19,6 +20,7 @@ const About = () => {
         </h1>
 
         <div className="icon-flex">
+        <img className="about_img" src={Ellie} alt="Ellie.jpg" />
           
         </div>
       </div>

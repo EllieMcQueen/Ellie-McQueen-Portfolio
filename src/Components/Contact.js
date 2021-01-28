@@ -88,7 +88,7 @@ const Contact = () => {
             <a href="https://github.com/EllieMcQueen">{githubSquare}</a>
           </div>
           <div className="icon">
-            <a href="mailto: EllieMcQueen@gmail.co">{emailSquare}</a>
+            <a href="mailto: EllieMcQueen@gmail.com">{emailSquare}</a>
           </div>
             </div>
         </section>
